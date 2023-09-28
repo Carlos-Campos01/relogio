@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-image: url(imagens/background.jpeg);
+    /*background-color: #313866;*/
+    background-size: cover;
+}
+span{
+    font-size: 90px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#hora, #min, #seg{
+    box-shadow: 0 0 10px 5px rgb(118, 196, 252);
+}
+
+@media (max-width: 500px){
+    span{
+        font-size: 50px;
+        margin: 0;
+    }
+}
